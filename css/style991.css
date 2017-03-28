@@ -1,0 +1,17 @@
+@media(min-width: 991px){
+    .navbar-nav>li{
+        float:none!important;
+        display: table-cell;
+    }
+    .navbar-nav {
+        display: table;
+        width: 100%;
+    }
+}
+
+@media (max-width: 991px){
+    .upper-menu{
+        width: 100%;
+        padding: 0;
+    }
+}
